@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 68px;
+    background-color: rgb(15, 11, 56);
+    color: white;
+    text-align: center;
+}
+main{
+    background-color:rgb(9, 6, 44);
+    height: 83.5vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    color: bisque;
+}
+.q1{
+    font-size: 2vw;
+    padding-left: 1vw;
+}
+.music1{
+    padding-left: 2vw;
+}
+@media screen and (max-width: 850px){
+    .q1{
+        font-size: 26px;
+    }
+    
+}

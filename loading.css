@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#loading{
+    background-color: rgb(9, 6, 44);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+.line1{
+    border: 2px solid white;
+    width: 70vw;
+    height: 40vh;
+    /* background-color: black; */
+    margin-left: 14vw;
+    margin-top: 21vh;
+    position: relative;
+    font-size: 5em;
+    
+    overflow: hidden;
+    color: transparent;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+ span{
+    position: absolute;
+    text-decoration: wavy;
+    text-decoration-color: wheat;
+    text-decoration-line: underline;
+    text-decoration-thickness: 20px ;
+    animation-name: wavy;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes wavy{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-1000px);
+    }
+} 
+.amplify{
+    position: absolute;
+    display: inline-block;
+    color: wheat;
+    font-size: 57px;
+    margin-left: 35vw;
+    margin-top: 21vh;
+}
+
+@media screen and (max-width: 480px) {
+    .amplify {
+        font-size: 44px;
+        margin-left: 15vw;
+    }
+    .line1{
+        margin-top: 37vh;
+        height: 30vh;
+    }
+    span{
+        text-decoration-thickness: 14px ;
+    }
+  }

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow: hidden; */
+}
+
+footer{
+    position : absolute;
+    bottom: 0;
+    height:70px;
+    width: 100vw;
+    background-color: rgb(9, 6, 44);
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 3px;
+
+}
+input{
+    width: 90vw;
+}
+main{
+background-color: black;
+}
+.containers{
+    /* position: absolute; */
+     background-color: black;
+     height: 83.5vh;
+     width: 100vw;
+     /* border: 2px solid red; */
+     background-image: url("https://1.bp.blogspot.com/-4Znon-AlyuI/YG77rh9TIiI/AAAAAAAAgdc/FaPjiunqrwER_ihwx6yNyK3u7zmmWhp1wCLcBGAsYHQ/s825/1.jpg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100vw 83.5vh ;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 56vw;
+    margin-top: 4vh;
+    gap: 14px;
+    
+}
+.artist{
+    display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: red; */
+color: whitesmoke;
+font-weight: 650;
+height: 30px;
+padding: 18px;
+width: 458px;
+font-size: 24px;
+border-radius: 233px;
+justify-content: space-between;
+}
+.grid :hover{
+    /* background-color: rgb(238, 238, 28); */
+    background-color: grey;
+    color: black;
+}
+.songInfo{
+    position: absolute;
+    left: 150px;
+    font-size: 28px;
+}
+.songItemPlay{
+    cursor:pointer;
+}
+.time{
+    position: absolute;
+    right: 150px;
+    font-size: 27px;
+}
+@media screen and (max-width: 810px) {
+    .artist{
+        font-weight: 650;
+        height: 25px;
+        padding: 13px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .grid{
+        margin-left: 1vw;
+        margin-top: 6vh;
+        gap: 25px;
+        
+    }
+.songInfo{
+    left: 5px;
+    font-size: 18px;
+}
+footer{
+    height:95px;
+}
+.time{
+    right: 50px;
+    font-size: 15px;
+}
+}

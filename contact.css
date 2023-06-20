@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 68px;
+    background-color: rgb(15, 11, 56);
+    color: white;
+    text-align: center;
+}
+main{
+    background-color:rgb(9, 6, 44);
+    height: 83.5vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    color: bisque;
+}
+main h1{
+    margin-left: 3vw;
+}
+.contacts{
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+@media screen and (max-width: 812px) {
+    .contacts{
+        font-size: 37px;
+    }
+    .caution{
+        font-size: 27px;
+    }
+}
